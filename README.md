@@ -2,6 +2,7 @@
 ## 스터디 목표
 > * 약 9 ~ 10주에 걸친 노마드 코더의 ["바닐라 JS로 크롬 앱 만들기"](https://nomadcoders.co/javascript-for-beginners/lobby) 강의 수강
 
+
 ## 일정
 > ### **진도 계획**
 > 
@@ -28,6 +29,7 @@
   
 * **11/07(월) ~ 11/13(일)**
   * #7.4 Loading To Dos part One ~ #8.2 Conclusions
+
 
 ## 정리
 * **09/19(월) ~ 09/25(일)**
