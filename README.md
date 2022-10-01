@@ -48,18 +48,18 @@
   * #2.1 : 데이터 타입의 기초(`int`, `float`, `string`)
   * #2.2 : Variable(변수) 소개, constant(상수) 인 변수 활용
   * #2.3 : `const` 와 `let`의 차이, `var` 소개
-   * `const` - 변수 재할당 불가능
-   * `let` - 변수 재할당 가능
-   * ! `const` 와 `let` 은 변수 재선언 불가능하지만 'var'은 가능
+    * `const` - 변수 재할당 불가능
+    * `let` - 변수 재할당 가능
+    * ! `const` 와 `let` 은 변수 재선언 불가능하지만 'var'은 가능
   * #2.4 : 데이터타입 `boolean` 소개, `null`, `false`, `undefined`의 차이
-   * `boolean'은 `ture` 혹은 `false` 값을 가짐
-   * `null`은 데이터가 존재하지 않음(비어있음) / `false`는 데이터 값이 `false` / `undefined`는 정의되지 않음(메모리상으로 인식되지만 값이 없음) 
+    * `boolean'은 `ture` 혹은 `false` 값을 가짐
+    * `null`은 데이터가 존재하지 않음(비어있음) / `false`는 데이터 값이 `false` / `undefined`는 정의되지 않음(메모리상으로 인식되지만 값이 없음) 
   * #2.5 : Array(배열`[]`) 소개, `array` 활용
-   * ex) `const Num = ["1", "2", "3"]'`
-   * `funtion` 중 `push`로 추가 가능
+    * ex) `const Num = ["1", "2", "3"]'`
+    * `funtion` 중 `push`로 추가 가능
   * #2.6 : Object(객체`{}`) 소개, `object' 활용
-   * ex) `const Person = {name: "Lee", ...};
+    * ex) `const Person = {name: "Lee", ...};
   * #2.7 : Function(함수`()` 소개, `function` 제작 및 활용
-   * ex) `function Hi() {console.log("Hello");} Hi();`
+    * ex) `function Hi() {console.log("Hello");} Hi();`
   * #2.8 : `function`의 활용 , Argument(인수)에 대한 이해
-   * ex) `funtion Person(name, age) {console.log(name + " and " + age);} Person("Lee", 23)`
+    * ex) `funtion Person(name, age) {console.log(name + " and " + age);} Person("Lee", 23)`
