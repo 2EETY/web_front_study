@@ -58,7 +58,7 @@
     * ex) `const Num = ["1", "2", "3"]'`
     * `funtion` 중 `push`로 추가 가능
   * #2.6 : Object(객체)`{}` 소개, `object' 활용
-    * ex) `const Person = {name: "Lee", ...};
+    * ex) `const Person = {name: "Lee", ...};`
   * #2.7 : Function(함수)`()` 소개, `function` 제작 및 활용
     * ex) `function Hi() {console.log("Hello");} Hi();`
   * #2.8 : `function`의 활용 , Argument(인수)에 대한 이해
