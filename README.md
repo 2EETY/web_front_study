@@ -63,3 +63,24 @@
     * ex) `function Hi() {console.log("Hello");} Hi();`
   * #2.8 : `function`의 활용 , Argument(인수)에 대한 이해
     * ex) `funtion Person(name, age) {console.log(name + " and " + age);} Person("Lee", 23)`
+
+* **10/03(월) ~ 10/09(일)**
+
+  * #2.9 : #2.0 ~ #2.5 복습
+  * #2.10 : #2.6 ~ 2.8 복습, `object`와 `funciton`을 이용해 계산기 제작
+  * #2.11 : `return` 소개
+    * 특정 작업을 수행하고 결과값을 `return`함
+    * `function`과 `return`의 관계 - `function` 내부에 `return`을 사용할 경우 해당 `function`을 호출한 코드의 값은 `return` 값을 받아옴
+    * `function` 내부에서 `return` 을 하면 `function`이 종료됨
+  * #2.12 : #2.11 복습
+  * #2.13 : Conditionals(조건문)`if`, `else` 소개
+    * 사용자에게 메시지를 보내고 값을 입력받는 `prompt()`
+    * `parseInt` - String을 Number로 바꿔줌
+  * #2.14 : 조건문 활용
+    * `isNaN` - Number값을 인자로 받아 number 인지 아닌지 `boolean`값으로 return함 (number값이 아니면 true, number 값이면 false)
+    * `if(condition) { //condition === true } else { //condition === false }`
+  * #2.15 : `else if` 소개
+    * `if(condition) { //condition === false } else if { //condition === false } else { //condition === true }`
+    * Condtion에서 Operator(연산자) :  AND의 역할 `&&`, OR의 역할 `||`
+  * #2.16 : #2.15 복습
+    * Condtion에서 Operator(연산자) : 같다 혹은 IS의 역할 `===`, IS NOT 의 역할 `!==`
