@@ -98,7 +98,7 @@
      * `querySelectorAll`은 특정 클래스 내부의 모든 요소를 가져옴
          ex) `const title = document.querySelectorAll(".hello h1');` -> hello 클래스 내부의 모든 h1을 `array` 형식으로 가져옴
    * #3.3 : JS는 모든 event를 listen이 가능함
-     * console.dir로 object로 표시한 element를 가져올 수 있음
+     * `console.dir`로 object로 표시한 element를 가져올 수 있음
      * JS로 style을 변경 할 수 있음
      * `eventListener` event를 listen하는 함수 추가
      * `ex) title.addEventListener("click", 함수)` - 클릭했을 때 함수를 실행할 event 추가
@@ -106,13 +106,13 @@
      * mouseenter: 마우스가 위에 위치할 때(올릴 때)의 event
      * mouseleave: 마우스가 위에서 떨어질 때(뗄 때)의 event
    * #3.5 : `addEventListener(event, function)`을 `onevent(event이름) = function` 으로 바꿀 수 있음
-     * `document.body(or head, title).~`로 document의 큰 부분을 차지하는 요소들을 불러낼 수 있지만 document.div(or h1, class)는 불가능. querySelector이나 getElementById같은 것으로 불러와야함.
-     * window는 resize(화면 크기 변경), copy(클립보드 복사), paste(클립보드 붙여넣기), offline(인터넷 커넥션 off), online(인터넷 커넥션 on) 등의 이벤트가 가능
+     * `document.body(or head, title).~`로 document의 큰 부분을 차지하는 요소들을 불러낼 수 있지만 document.div(or h1, class)는 불가능. `querySelector`이나 `getElementById`같은 것으로 불러와야함.
+     * `window`는 resize(화면 크기 변경), copy(클립보드 복사), paste(클립보드 붙여넣기), offline(인터넷 커넥션 off), online(인터넷 커넥션 on) 등의 이벤트가 가능
      * ex) `window.addEventLinstener("resieze", function)`
    * #3.6 : 특정 event를 작성할 때 event에 해당하는 함수에 `if-else`(조건문)를 넣을 수 있음
    * #3.7 : style은 JS에서 작성하는 것 보다 CSS 스타일시트 파일과 JS의 상호작용으로 깔끔하게 표현할 수 있음  
      * event에 활용할 `string`을 특정 변수에 정의함으로 써 오타같은 자잘한 오류를 줄일 수 있음
-   * #3.8 : 'class`를 변경할 때 `classList`로 `class`들의 목록으로 작업이 가능
+   * #3.8 : `class`를 변경할 때 `classList`로 `class`들의 목록으로 작업이 가능
      * `className`은 이전 class에 관계없이 교체함
      * `classList.contains(anyClass)` : anyClass가 HTML element의 class에 포함되어있는지 말해줌
      * `classList.remove(anyClass)` : anyClass를 제거
