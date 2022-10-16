@@ -103,17 +103,18 @@
     * `eventListener` event를 listen하는 함수 추가
     * `ex) title.addEventListener("click", 함수)` - 클릭했을 때 함수를 실행할 event 추가
   * #3.4 : MDN(Mozila Developer Network) 소개, WebAPI 확인 가능
-    * mouseenter: 마우스가 위에 위치할 때(올릴 때)의 event 
+    * mouseenter: 마우스가 위에 위치할 때(올릴 때)의 event
     * mouseleave: 마우스가 위에서 떨어질 때(뗄 때)의 event
   * #3.5 : `addEventListener(event, function)`을 `onevent(event이름) = function` 으로 바꿀 수 있음
     * `document.body(or head, title).~`로 document의 큰 부분을 차지하는 요소들을 불러낼 수 있지만 document.div(or h1, class)는 불가능. querySelector이나 getElementById같은 것으로 불러와야함.
     * window는 resize(화면 크기 변경), copy(클립보드 복사), paste(클립보드 붙여넣기), offline(인터넷 커넥션 off), online(인터넷 커넥션 on) 등의 이벤트가 가능
     * ex) `window.addEventLinstener("resieze", function)`
-  * #3.6 : event를 실행하면 실행될 함수에 if-else를 넣어 경우의 수를 만들 수 있음
-  * #3.7 : 스타일변형은 JS에서 함께하는 것이 아니라 css 파일을 통해 정의 함으로써 코드를 깔끔하게 할 수 있음  
-   string을 변수에 넣어 코드에 활용하면 이유를 알기 어려운 오류를 줄일 수 있음
-  * #3.8 :  JS에서 class를 변경하고 싶을 때 classList를 사용하면 class 들의 목록으로 작업할 수 있음, className은 이전에 class를 상관하지 않고 교체함  
-   toggle은 사용하면 해당 classList에 class가 있는지 확인해서 만약 있다면 제거하고 없다면
-  
-  
-  
+  * #3.6 : 특정 event를 작성할 때 event에 해당하는 함수에 `if-else`(조건문)를 넣을 수 있음
+  * #3.7 : style은 JS에서 작성하는 것 보다 CSS 스타일시트 파일과 JS의 상호작용으로 깔끔하게 표현할 수 있음  
+    * event에 활용할 `string`을 특정 변수에 정의함으로 써 오타같은 자잘한 오류를 줄일 수 있음
+  * #3.8 : 'class`를 변경할 때 `classList`로 `class`들의 목록으로 작업이 가능
+    * `className`은 이전 class에 관계없이 교체함
+    * `classList.contains(anyClass)` : anyClass가 HTML element의 class에 포함되어있는지 말해줌
+    * `classList.remove(anyClass)' : anyClass를 제거
+    * `classList.add(anotherClass)' : anotherClass를 추가
+    * `toggle`을 사용해 classList에 class가 있는 지 확인하고 있으면 제거하고 없으면 추가함
