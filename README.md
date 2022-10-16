@@ -84,3 +84,24 @@
     * Condtion에서 Operator(연산자) :  AND의 역할 `&&`, OR의 역할 `||`
   * #2.16 : #2.15 복습
     * Condtion에서 Operator(연산자) : 같다 혹은 IS의 역할 `===`, IS NOT 의 역할 `!==`
+    
+ **10/10(월) ~ 10/16(일)**
+ 
+  * #3.0 : JS를 이용해 HTML과 상호작용 가능, HTML의 요소들을 JS로 읽거나 변경이 가능함. 콘솔창을 통해 HTML 코드를 JS의 관점으로 확인이 가능함.
+  * #3.1 : document로 JS에서 HTML로 접근 가능
+    * `document.getElementById()`로 `string`을 전달 받음
+    * JS는 HTML의 element를 가져오지만 HTML 자체를 보여주진 않음
+    * HTML의 항목들을 가져와 JS를 통해 변경할 수 있음
+  * #3.2 : 한번에 많은 element를 가져와야 하는 경우 `getElementsByClassName()` 사용
+    * `querySelector`는 element를 CSS방식으로 가져 올 수 있음 
+         `ex) const title = document.querySelector("h1');` -> 특정 클래스 내부의 h1을 가져옴 
+    * `querySelectorAll`은 
+  * #3.3 : 
+  * #3.4 : 
+  * #3.5 : 
+  * #3.6 : 
+  * #3.7 : 
+  * #3.8 : 
+  
+  
+  
