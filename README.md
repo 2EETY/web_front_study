@@ -85,7 +85,7 @@
   * #2.16 : #2.15 복습
     * Condtion에서 Operator(연산자) : 같다 혹은 IS의 역할 `===`, IS NOT 의 역할 `!==`
     
- **10/10(월) ~ 10/16(일)**
+ * **10/10(월) ~ 10/16(일)**
  
   * #3.0 : JS를 이용해 HTML과 상호작용 가능, HTML의 요소들을 JS로 읽거나 변경이 가능함. 콘솔창을 통해 HTML 코드를 JS의 관점으로 확인이 가능함.
   * #3.1 : document로 JS에서 HTML로 접근 가능
@@ -94,14 +94,26 @@
     * HTML의 항목들을 가져와 JS를 통해 변경할 수 있음
   * #3.2 : 한번에 많은 element를 가져와야 하는 경우 `getElementsByClassName()` 사용
     * `querySelector`는 element를 CSS방식으로 가져 올 수 있음 
-         `ex) const title = document.querySelector("h1');` -> 특정 클래스 내부의 h1을 가져옴 
-    * `querySelectorAll`은 
-  * #3.3 : 
-  * #3.4 : 
-  * #3.5 : 
-  * #3.6 : 
-  * #3.7 : 
-  * #3.8 : 
+         ex) `const title = document.querySelector(".hello h1');` -> hello 클래스 내부의 첫번째 h1을 가져옴 (`.hello h1` 은 CSS selector 표현)
+    * `querySelectorAll`은 특정 클래스 내부의 모든 요소를 가져옴
+         ex) `const title = document.querySelectorAll(".hello h1');` -> hello 클래스 내부의 모든 h1을 `array` 형식으로 가져옴
+  * #3.3 : JS는 모든 event를 listen이 가능함
+    * console.dir로 object로 표시한 element를 가져올 수 있음
+    * JS로 style을 변경 할 수 있음
+    * `eventListener` event를 listen하는 함수 추가
+    * `ex) title.addEventListener("click", 함수)` - 클릭했을 때 함수를 실행할 event 추가
+  * #3.4 : MDN(Mozila Developer Network) 소개, WebAPI 확인 가능
+    * mouseenter: 마우스가 위에 위치할 때(올릴 때)의 event 
+    * mouseleave: 마우스가 위에서 떨어질 때(뗄 때)의 event
+  * #3.5 : `addEventListener(event, function)`을 `onevent(event이름) = function` 으로 바꿀 수 있음
+    * `document.body(or head, title).~`로 document의 큰 부분을 차지하는 요소들을 불러낼 수 있지만 document.div(or h1, class)는 불가능. querySelector이나 getElementById같은 것으로 불러와야함.
+    * window는 resize(화면 크기 변경), copy(클립보드 복사), paste(클립보드 붙여넣기), offline(인터넷 커넥션 off), online(인터넷 커넥션 on) 등의 이벤트가 가능
+    * ex) `window.addEventLinstener("resieze", function)`
+  * #3.6 : event를 실행하면 실행될 함수에 if-else를 넣어 경우의 수를 만들 수 있음
+  * #3.7 : 스타일변형은 JS에서 함께하는 것이 아니라 css 파일을 통해 정의 함으로써 코드를 깔끔하게 할 수 있음  
+   string을 변수에 넣어 코드에 활용하면 이유를 알기 어려운 오류를 줄일 수 있음
+  * #3.8 :  JS에서 class를 변경하고 싶을 때 classList를 사용하면 class 들의 목록으로 작업할 수 있음, className은 이전에 class를 상관하지 않고 교체함  
+   toggle은 사용하면 해당 classList에 class가 있는지 확인해서 만약 있다면 제거하고 없다면
   
   
   
