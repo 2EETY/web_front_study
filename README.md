@@ -115,6 +115,6 @@
    * #3.8 : 'class`를 변경할 때 `classList`로 `class`들의 목록으로 작업이 가능
      * `className`은 이전 class에 관계없이 교체함
      * `classList.contains(anyClass)` : anyClass가 HTML element의 class에 포함되어있는지 말해줌
-     * `classList.remove(anyClass)' : anyClass를 제거
-     * `classList.add(anotherClass)' : anotherClass를 추가
+     * `classList.remove(anyClass)` : anyClass를 제거
+     * `classList.add(anotherClass)` : anotherClass를 추가
      * `toggle`을 사용해 classList에 class가 있는 지 확인하고 있으면 제거하고 없으면 추가함
