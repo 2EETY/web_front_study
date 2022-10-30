@@ -139,7 +139,7 @@
      * hidden이라는 classname을 더해 form을 숨기고 유저의 이름을 변수로 저장해 그 이름을 h1에 표현
      * string으로만 포함된 변수는 대문자로 표기하고 string을 저장하고 싶을 때 사용
       * ex) `const HIDDEN_CLASSNAME = "hidden";`
-     * `"(string)" + 변수` 를 ``(string) ${변수}``로 표현 가능
+     * `"(string)" + 변수` 를 ```(string) ${변수}```로 표현 가능
    * #4.5 : 
    * #4.6 : 
    * #4.7 : 
