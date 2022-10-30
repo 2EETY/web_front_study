@@ -118,3 +118,28 @@
      * `classList.remove(anyClass)` : anyClass를 제거
      * `classList.add(anotherClass)` : anotherClass를 추가
      * `toggle`을 사용해 classList에 class가 있는 지 확인하고 있으면 제거하고 없으면 추가함
+
+ * **10/24(월) ~ 10/30(일)**
+   
+   * #4.0 : Log In Form 제작
+     * `input` 타입을 text로 하고 Log In 버튼을 추가
+     * 텍스트를 입력받고(`value` 값으로 저장됨) 로그인 버튼 클릭 이벤트 생성
+   * #4.1 : Log In Form 제작에 있어서 필요한 조건 생성
+     * `if else`를 이용해 `input`이 비어있거나 특정 길이를 넘어가면 경고문
+     * html 자체 도구를 이용해 JS에서 조건문을 사용하는 것 보다 효율적으로 사용하는 방법도 있음
+     * `input` 안에 있는 `button`을 누르거나 `type`이 `submit`인 `input`을 클릭하면 작성한 `form`이 `submit` 됨(새로고침)
+   * #4.2 : #4.1에서 `submit` 이라는 event가 발생하는 것을 방지하거나 발생 여부를 파악
+     * `form`을 `submit`할 때 입력값을 받아냄 = submitEvent를 확인
+     * function 은 ()를 읽고 바로 실행하므로 preventDefault()과 내부의 argument의 조건을 잘 주어준다면 브라우저가 엔터를 감지, 새로고침하는 것을 막을 수 있음
+     * `preventDefault()` : 어떤 event의 행동이 발생하지 않도록 막음
+   * #4.3 : `preventDefault()` 에 대한 부가 설명
+   * #4.4 : 유저가 이름을 submit 하면 input한 form을 없애는 방법
+     * html에서 요소 자체를 없애거나 CSS에서 `display: none;`으로 표현 가능
+     * `const username = loginInput.value; loginForm.classList.add("hidden"); console.log(username);`
+     * hidden이라는 classname을 더해 form을 숨기고 유저의 이름을 변수로 저장해 그 이름을 h1에 표현
+     * string으로만 포함된 변수는 대문자로 표기하고 string을 저장하고 싶을 때 사용
+      * ex) `const HIDDEN_CLASSNAME = "hidden";`
+     * "(string)" + 변수 를 '(string) ${변수}'로 표현 가능
+   * #4.5 : 
+   * #4.6 : 
+   * #4.7 : 
