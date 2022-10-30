@@ -139,7 +139,12 @@
      * hidden이라는 classname을 더해 form을 숨기고 유저의 이름을 변수로 저장해 그 이름을 h1에 표현
      * string으로만 포함된 변수는 대문자로 표기하고 string을 저장하고 싶을 때 사용
       * ex) `const HIDDEN_CLASSNAME = "hidden";`
-     * `"(string)" + 변수` 를 ```(string) ${변수}```로 표현 가능
-   * #4.5 : 
-   * #4.6 : 
-   * #4.7 : 
+     * `"(string)" + 변수명` 를 `(백틱)(string) ${변수}(백틱)`로 표현 가능
+   * #4.5 : Local Storage 소개
+     * Local Storage : 브라우저에서 정보를 저장하고 사용할 수 있음(devtool)
+     * localStorage.setItem("이름", "저장값") : 정보 저장
+     * localStorage.getItem("이름") : 정보 불러오기
+     * localStorage.removeItem("이름") : 정보 삭제
+   * #4.6 : 저장된 Username 불러오기
+     * form과 event를 더하기 전에 localStorage를 확인하고 유저 정보가 없으면 form을 보여주고 있다면 h1을 보여줘야함
+   * #4.7 : #4.0 ~ #4.6 
