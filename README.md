@@ -119,7 +119,7 @@
      * `classList.add(anotherClass)` : anotherClass를 추가
      * `toggle`을 사용해 classList에 class가 있는 지 확인하고 있으면 제거하고 없으면 추가함
 
- * **10/24(월) ~ 10/30(일)**
+ * **10/31(월) ~ 11/06(일)**
    
    * #4.0 : Log In Form 제작
      * `input` 타입을 text로 하고 Log In 버튼 추가
@@ -148,3 +148,19 @@
    * #4.6 : 저장된 Username 불러오기
      * form과 event를 더하기 전에 localStorage를 확인하고 유저 정보가 없으면 form을 보여주고 있다면 h1을 보여줘야함
    * #4.7 : #4.0 ~ #4.6 복습
+
+ * **11/7(월) ~ 11/13(일)**
+   
+   * #5.0 : 시계 제작의 기초 - Interval 설정
+     * Intervals : 특정 주기에 대한 간격을 의미함.
+     * `setInterval(function, ms)` : 설정한 ms 마다 function을 실행함
+   * #5.1 : Timeout과 날짜 설정
+     * Timeout : 특정 이벤트가 발생하기 전 시스템의 지연을 허용할 특정한 시간을 의미함.
+     * `setTimeout(function, ms)` : 설정한 ms 이후 function을 실행함
+     * JS에서는 Date Object라는 Tool을 지원함, 이를 활용
+     * `new Date();` 는 금일 날짜를 가져옴
+     * ex) `.get(Day, Minutes, Hours etc..)`를 이용해 년, 달, 일, 시간, 초, 밀리초를 받아올 수 있음
+   * #5.2 : PadStart 설명
+     * String에서 쓸 수 있는 function
+     * `(str).padStart(원하는 문자열 길이, 추가할 문자열);`
+   * #5.3 : #5.0 ~ #5.2 
